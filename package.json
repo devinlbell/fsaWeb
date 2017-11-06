@@ -1,0 +1,24 @@
+{
+  "name": "fantasysportsassistant",
+  "version": "1.0.0",
+  "description": "Helps with fantasy lineup decisions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "yahoo",
+    "fantasy",
+    "node",
+    "js",
+    "web",
+    "app"
+  ],
+  "author": "Devin Bell",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "yahoo-fantasy": "git+https://github.com/whatadewitt/yfsapi.git"
+  }
+}
